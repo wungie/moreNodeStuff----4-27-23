@@ -7,8 +7,11 @@ import axios from 'axios'
 // console.log(chalk.blue('Hello World'))
 main()
 configs()
+console.log(process.env.API_KEY)
 
-axios.get("https://dog.ceo/api/breeds/image/random?key=587ac573444c34df3cdcc47693dcc377")
+let api_url = `https://dog.ceo/api/breeds/image/random?key=${process.env.API_KEY}`
+
+axios.get(api_url)
 .then (res=>{
     console.log(res.data)
 })

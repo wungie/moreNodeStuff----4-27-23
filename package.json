@@ -1,0 +1,15 @@
+{
+  "name": "morenodestuff",
+  "version": "1.0.0",
+  "description": "hmmm yes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
